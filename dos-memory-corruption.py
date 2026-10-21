@@ -172,7 +172,6 @@ def main():
     ap.add_argument("--total-mb", type=int, default=128)
     args = ap.parse_args()
 
-    print(f"CVE-2026-109618 — PHP OOM Corruption POC")
     print(f"Target: {args.host}:{args.port}{args.path}")
     print(f"Strategy: {args.strategy}")
     print()
